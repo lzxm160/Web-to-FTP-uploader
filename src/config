@@ -1,0 +1,35 @@
+# Configuration file of FTP client
+# Lines beging with a "#" are used for comments. Empty lines are ignored.
+# "=" character is used to separate paremeter name from it's value
+
+
+# Destination FTP server host name
+FTP_HOST=88.198.237.65
+
+
+# Destination FTP server port number
+FTP_PORT=21
+
+
+# FTP server user name
+FTP_USER=FileUploader
+
+
+# FTP server user password
+FTP_PASWORD=FileUploader
+
+
+# Interface type
+# "0" - no "Save" button. Upload starts immediately after URL change
+# "1" - with a "Save" button. Upload starts after pressing the button
+INTERFACE_TYPE=0
+
+
+# A minimal number of pixels between the application window and the edge of the screen
+# which causes the window to stick to the screen border
+MAGNET_POWER=20
+
+
+# Initial position of the window. Avaliable values are
+# "TL" (top-left), "TR" (top-right), "BL" (bottom-left), "BR" (bottom-right)
+POSITION_INITIAL=BR
